@@ -1,8 +1,4 @@
-.coverImg {
-    width: 100%;
-    object-fit: cover;
-    height: 100vh;
-}
+
 
 a {
     text-decoration: none;
@@ -18,7 +14,7 @@ a:hover {
     display: flex;
     background: linear-gradient(rgb(107, 103, 103), rgba(199, 196, 196, 0.228));
     width: 100%;
-    position: fixed;
+    position: absolute;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
@@ -83,4 +79,39 @@ h6 {
 
 .icon {
     width: 170px;
+}
+
+.tekst {
+    background: none;
+    position: absolute;
+    color: white;
+    top: 30%;
+    right: 5%;
+    padding: 3%;
+}
+
+h4 {
+    font-size: 70px;
+}
+
+h1 {
+    font-size: 120px;
+}
+
+h1, h4 {
+    color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    background-image: url("/assets/images/tekst1.jpg");
+    background-size: 120%;
+    animation: bg-animation 30s cubic-bezier(0.3,0,0.7,1) infinite;
+}
+
+@keyframes bg-animation {
+    0% {background-position: 0% 0%;}
+    50% {background-position: 100% 100%;}
+    100% {background-position: 0% 0%;}
+     
 }

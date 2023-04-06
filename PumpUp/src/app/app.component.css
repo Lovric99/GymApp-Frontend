@@ -1,0 +1,10 @@
+#paketi {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 120vh;
+}
+
+
