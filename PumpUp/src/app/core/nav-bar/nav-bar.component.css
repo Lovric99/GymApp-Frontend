@@ -1,0 +1,86 @@
+.coverImg {
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    background: linear-gradient(rgb(107, 103, 103), rgba(199, 196, 196, 0.228));
+    width: 100%;
+    position: fixed;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.drugi {
+    width: 70%;
+    padding-left: 5%;
+}
+
+ul {
+    padding-top: 10px;
+    list-style: none;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+li {
+    padding: 30px;
+    font-size: 20px;
+}
+
+.treci {
+    width: 15%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(35, 35, 35);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transition: 200ms;
+}
+
+.treci:hover {
+    border: 3px solid red;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.plus {
+    width: 20%;
+}
+
+span {
+    color: rgb(130, 130, 130);
+}
+
+h3 {
+    position: absolute;
+    top: 40px;
+    left: 28px;
+}
+
+h6 {
+    position: absolute;
+    font-size: 12px;
+    top: 75px;
+    left: 20px;
+}
+
+.icon {
+    width: 170px;
+}
