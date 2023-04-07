@@ -98,6 +98,20 @@ h1 {
     font-size: 120px;
 }
 
+.top {
+    position: fixed;
+    right: 1px;
+    bottom: 1px;
+    background: transparent;
+    font-size: 20px;
+
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
 h1, h4 {
     color: transparent;
     background-clip: text;
