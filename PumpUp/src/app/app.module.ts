@@ -8,9 +8,7 @@ import { NavBarComponent } from './core/nav-bar/nav-bar.component';
 import { PacketsComponent } from './packets/packets.component';
 import { HttpClientModule } from '@angular/common/http';
 import { MembershipComponent } from './membership/membership.component';
-import { GalleryComponent } from './gallery/gallery.component';
 import { ScheduleComponent } from './schedule/schedule.component';
-import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
@@ -22,11 +20,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     NavBarComponent,
     PacketsComponent,
     MembershipComponent,
-    GalleryComponent,
     ScheduleComponent,
-    AboutComponent,
-    ContactComponent,
-       
+    ContactComponent, 
   ],
   imports: [
     BrowserModule,
