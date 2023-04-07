@@ -4,7 +4,21 @@
     justify-content: space-around;
     flex-wrap: wrap;
     position: absolute;
-    top: 120vh;
+    top: 100vh;
+}
+
+#membership {
+    position: absolute;
+    top: 220vh;
+    left: 25%;
+    right: 25%;
+    background: linear-gradient(rgb(107, 103, 103), rgba(199, 196, 196, 0.228));
+    padding: 5%;
+    padding-right: 30%;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    color: black;
+    display: flex;
 }
 
 
