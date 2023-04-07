@@ -33,4 +33,12 @@
     margin-left: 5%;
 }
 
+#contact {
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    display: flex;
+    top: 390vh;
+}
+
 

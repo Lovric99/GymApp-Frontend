@@ -1,0 +1,44 @@
+img:hover {
+ cursor: pointer;
+}
+
+img {
+    padding-right: 10px;
+}
+
+.sve {
+    color: white;
+    padding: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+span {
+    border-bottom: 2px solid red;
+    border-bottom-left-radius: 10px;
+}
+
+.iframe {
+    padding: 20px;
+}
+
+.tekst {
+    padding-top: 10px;
+}
+
+p {
+    padding-top: 10px;
+}
+
+.top {
+    margin-top: 535px;
+    margin-left: 25px;
+    background: transparent;
+    font-size: 20px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
