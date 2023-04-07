@@ -21,4 +21,14 @@
     display: flex;
 }
 
+#schedule {
+    background: linear-gradient( #a09e96 , #f2f2f2 , #dbdbdba7,  #eaeaeaac );
+    width: 100%;
+    position: absolute;
+    top: 300vh;
+    display: flex;
+    border-radius: 10%;
+    justify-content: center;
+}
+
 
