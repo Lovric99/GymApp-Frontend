@@ -128,3 +128,66 @@ h1, h4 {
     100% {background-position: 0% 0%;}
      
 }
+
+@media screen and (max-width: 1400px) {
+    .drugi {
+        width: 50%;
+        padding: 10px;
+    }
+
+    .treci {
+        visibility: hidden;
+    }
+
+    .tekst {
+        left: 15%;
+        right: 15%;
+    }
+
+    h4 , h1 {
+        font-size: 70px;
+    }
+
+    .top {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .drugi {
+        width: 100%;
+        margin-right: 30px;
+        padding: 0;
+    }
+
+    h3  {
+        left: 330px;   
+    }
+
+    h6{
+        left: 315px;
+    }
+
+    .tekst {
+        left: 20%;
+        right: 20%;
+        top: 90vh;
+    }
+
+    ul {
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    li {
+        padding-top: 10px;
+    }
+}

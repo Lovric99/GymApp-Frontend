@@ -42,3 +42,44 @@
 }
 
 
+@media screen and (max-width: 1400px) {
+    #membership {
+        top: 350vh;
+        left: 5%;
+        right: 5%;
+    }
+
+    #schedule {
+        top: 420vh;
+    }
+
+    #contact {
+        top: 500vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #paketi {
+        top: 200vh;
+        left: 5%;
+        right: 5%;
+    }
+
+    #membership {
+        top: 530vh;
+        left: 10px;
+        right: 10px;
+        display: flex;
+        text-align: center;
+    }
+
+    #schedule {
+        top: 600vh
+        
+    }
+
+    #contact {
+        top: 710vh;
+        text-align: center;
+    }
+}

@@ -20,6 +20,8 @@ span {
 
 .iframe {
     padding: 20px;
+    width: 600px;
+    height: 450px;
 }
 
 .tekst {
@@ -31,14 +33,39 @@ p {
 }
 
 .top {
-    margin-top: 535px;
-    margin-left: 25px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
     background: transparent;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 button {
     background-color: transparent;
     border: none;
     color: white;
+}
+
+@media screen and (max-width: 1400px) {
+    .iframe {
+        padding: 2px;
+        width: 200px;
+        height: 150px;
+    }
+
+    .sve {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .iframe {
+        visibility: hidden;
+    }
+
+    .sve {
+        padding-left: 35%;
+        padding-right: 35%;
+    }
 }
